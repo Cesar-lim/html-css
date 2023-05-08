@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+</head>
+
+<style>
+    body{
+        background-color: dimgray;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+ 
+
+    }
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px;
+    }
+
+    nav{
+        background-color: rgb(102, 102, 102);
+        padding: 5px;
+        box-shadow: 1px -5px 1px 1px black;
+    }
+
+
+    nav > a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 50px;
+    }
+
+
+    nav > a:hover{
+        text-decoration: underline;
+    }
+
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 4px 9px 0px rgba( 0, 0, 0, 0.39);
+    }
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    article > aside{
+
+        background-color: bisque;
+
+    }
+    footer{
+        text-align: center;
+        color: white;
+        background-color: black;
+        padding: 4px;
+        margin: 0px;
+
+    
+    }
+
+    div#bola{
+       height: 100px; 
+       width: 100px;
+       margin: 10px;
+       border-radius: 50%;
+       background-color: white;
+
+    }
+    footer > p{
+        margin: 0px;
+    }
+    
+
+
+</style>
+
+
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Notícias Esportes Política</p>            
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A animi, cum magni vero, accusantium aliquid ab reprehenderit laboriosam neque, velit nesciunt sapiente consectetur deserunt enim dignissimos blanditiis aut est molestiae.</p>
+                <aside> Escrito por Angelona</aside>
+            </article>
+        </section>
+
+    </main>
+    <footer><p>Desenvolvido por Bredão</p></footer>
+    <div id="bola"></div>
+</body>
+</html>

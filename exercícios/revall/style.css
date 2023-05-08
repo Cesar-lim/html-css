@@ -1,0 +1,39 @@
+@charset "UTF-8";
+body{
+    box-shadow: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: bisque;
+}
+main{
+    background-color: bisque ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(red, green, blue, alpha);
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: blue;
+    background-color: brown;
+}
+p{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+.div > p{
+    display: none;
+}
+
+.div > p{
+    display: block;
+    color: tomato;
+    font: Arial 2.5em black;
+}
+
+div:hover{
+    background-color: red;
+    background-size: 200px;
+}

@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+    font-size: 1.6em;
+    font-family: Arial, Helvetica, sans-serif
+           
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: aliceblue;
+    width: 220px;
+    background-color: brown;
+    
+    
+}
+
+div:hover{
+    color: gold;
+}
